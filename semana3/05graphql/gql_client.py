@@ -16,7 +16,7 @@ query_lista = """
 # Solicitud POST al servidor GraphQL
 response = requests.post(url, json={'query': query_lista})
 print(response.text)
-
+#-------------------------------------------------------------
 # Definir la consulta GraphQL con parametros
 query = """
     {
@@ -46,7 +46,8 @@ mutation {
 
 response_mutation = requests.post(url, json={'query': query_crear})
 print(response_mutation.text)
-
+'''
+#-------------------------------------------------------
 # Lista de todos los estudiantes
 response = requests.post(url, json={'query': query_lista})
 print(response.text)
@@ -71,3 +72,4 @@ print(response_mutation.text)
 # Lista de todos los estudiantes
 response = requests.post(url, json={'query': query_lista})
 print(response.text)
+'''

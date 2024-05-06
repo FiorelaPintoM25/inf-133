@@ -58,13 +58,13 @@ except sqlite3.OperationalError:
 conn.execute(
     """
     INSERT INTO DEPARTAMENTOS (nombre,fecha_creacion) 
-    VALUES ('sISTEMAS','2001-05-26')
+    VALUES ('sistemas','2001-05-26')
     """
 )
 conn.execute(
     """
     INSERT INTO DEPARTAMENTOS (nombre,fecha_creacion) 
-    VALUES ('AdministRACION','2001-05-26')
+    VALUES ('administracion','2001-05-26')
     """
 )
 

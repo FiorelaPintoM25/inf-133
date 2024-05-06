@@ -60,7 +60,7 @@ class Mutations(ObjectType):
 
 estudiantes = [
     Estudiante(
-        id=1, nombre="Pedrito", apellido="García", carrera="Ingeniería de Sistemas"
+        id=1, nombre="Pedrito", apellido="Garcia", carrera="Ingenieria de Sistemas"
     ),
     Estudiante(id=2, nombre="Jose", apellido="Lopez", carrera="Arquitectura"),
 ]
